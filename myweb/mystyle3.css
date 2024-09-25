@@ -1,0 +1,10 @@
+table {
+    margin: auto; /* ทำให้ตารางอยู่ตรงกลาง */
+    background-color: lightgreen; /* สีพื้นหลังของตาราง */
+}
+body {
+    font-family: Arial, sans-serif;
+}
+h1.list {
+    text-align: center; /* จัดข้อความให้อยู่ตรงกลาง */
+}
