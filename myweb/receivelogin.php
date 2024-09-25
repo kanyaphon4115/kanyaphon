@@ -12,7 +12,7 @@
        <div class="message">
          <?php
             $showuser = $_POST['username'];
-            echo "Welcome to cs supermarket websit: $showuser";
+            echo "Welcome to cs supermarket website: $showuser";
          ?>
        </div>
           <div class="form">
