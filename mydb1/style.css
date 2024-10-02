@@ -1,0 +1,71 @@
+/* ตั้งค่าพื้นฐานสำหรับหน้าเว็บ */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5; /* สีพื้นหลัง */
+    padding: 20px;
+    background-image: url('path_to_your_texture_image.png'); /* รูปพื้นหลังลายกระดาษ */
+    background-size: cover;
+}
+
+/* การจัดการสไตล์ของหัวข้อ */
+h1 {
+    font-size: 2em;
+    color: #333;
+}
+
+/* การจัดสไตล์ให้กับตาราง */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #ffffff;
+}
+
+th, td {
+    text-align: left;
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f4f4f4;
+    color: #333;
+    font-weight: bold;
+}
+
+td {
+    color: #555;
+}
+
+/* สไตล์ปุ่ม Edit */
+button {
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/* ปุ่ม Insert และ Home */
+a button {
+    background-color: #4CAF50; /* สีเขียว */
+}
+
+a button:hover {
+    background-color: #45a049;
+}
+
+/* การจัดสไตล์ลิงก์ */
+a {
+    text-decoration: none;
+}
+
+/* สไตล์พิเศษสำหรับแถวที่มีสีต่างกัน */
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}

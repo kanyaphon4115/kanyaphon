@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('path-to-your-background-image.jpg'); /* ถ้ามีภาพพื้นหลัง */
+}
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    padding: 20px;
+    width: 300px;
+    background-color: transparent; /* ไม่มีสีพื้นหลัง */
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+input[type="submit"], .home-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+    display: inline-block;
+    margin-top: 10px; /* เพิ่มช่องว่างระหว่างปุ่ม */
+}
+
+input[type="submit"]:hover, .home-button:hover {
+    background-color: #45a049;
+}
